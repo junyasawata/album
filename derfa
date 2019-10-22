@@ -1,0 +1,99 @@
+[33mcommit 53a87b54a5487b53a48d1566bded7fe194533590[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: junyasawata <tetetech01@gmail.com>
+Date:   Tue Oct 22 21:23:59 2019 +0900
+
+    add git status
+
+[1mdiff --git a/first.txt b/first.txt[m
+[1mindex 979889b..94d6adf 100644[m
+[1m--- a/first.txt[m
+[1m+++ b/first.txt[m
+[36m@@ -3,3 +3,4 @@[m
+ こんにいは[m
+ ｄ[m
+ ええ[m
+[32m+[m[32m・ぎっとSEO[m
+
+[33mcommit 246fd7a15200e954cf4afd27ee44898af27e388d[m
+Author: junyasawata <tetetech01@gmail.com>
+Date:   Tue Oct 22 21:19:58 2019 +0900
+
+    複数ファイルのコミット
+
+[1mdiff --git a/first.txt b/first.txt[m
+[1mindex 07b2583..979889b 100644[m
+[1m--- a/first.txt[m
+[1m+++ b/first.txt[m
+[36m@@ -2,3 +2,4 @@[m
+ 今二位[m
+ こんにいは[m
+ ｄ[m
+[32m+[m[32mええ[m
+[1mdiff --git a/second.txt b/second.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d55329b[m
+[1m--- /dev/null[m
+[1m+++ b/second.txt[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32m二番目[m
+[32m+[m[32mじ[m
+
+[33mcommit d9c19361b3af7dc9156a3f1d785c2c000cf28263[m
+Author: junyasawata <tetetech01@gmail.com>
+Date:   Tue Oct 22 21:18:22 2019 +0900
+
+    rm secont.txt
+
+[1mdiff --git a/second.txt b/second.txt[m
+[1mdeleted file mode 100644[m
+[1mindex bb36d10..0000000[m
+[1m--- a/second.txt[m
+[1m+++ /dev/null[m
+[36m@@ -1 +0,0 @@[m
+[31m-二番目[m
+
+[33mcommit 6035ebd3af401079d8864085d2921b64c1c7a343[m
+Author: junyasawata <tetetech01@gmail.com>
+Date:   Tue Oct 22 21:16:25 2019 +0900
+
+    add second.txt
+
+[1mdiff --git a/second.txt b/second.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..bb36d10[m
+[1m--- /dev/null[m
+[1m+++ b/second.txt[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m二番目[m
+
+[33mcommit 9d3f3f0701d37d707de99e9f26bdb76061ef416d[m
+Author: junyasawata <tetetech01@gmail.com>
+Date:   Tue Oct 22 21:11:22 2019 +0900
+
+    add text
+    
+    study
+
+[1mdiff --git a/first.txt b/first.txt[m
+[1mindex 4a995b4..07b2583 100644[m
+[1m--- a/first.txt[m
+[1m+++ b/first.txt[m
+[36m@@ -1 +1,4 @@[m
+ 1 gitの練習をしていきます。[m
+[32m+[m[32m今二位[m
+[32m+[m[32mこんにいは[m
+[32m+[m[32mｄ[m
+
+[33mcommit a022b1e696c74ba8bf63cc566759dfb7ab39c0be[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: junyasawata <tetetech01@gmail.com>
+Date:   Tue Oct 22 20:58:48 2019 +0900
+
+    initial commit
+
+[1mdiff --git a/first.txt b/first.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4a995b4[m
+[1m--- /dev/null[m
+[1m+++ b/first.txt[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m1 gitの練習をしていきます。[m
